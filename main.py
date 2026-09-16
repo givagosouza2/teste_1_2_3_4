@@ -318,7 +318,7 @@ n_fim = st.sidebar.number_input(
 # ============================================================
 arquivo = st.file_uploader(
     "Selecione o arquivo CSV",
-    type=["csv";"txt"]
+    type=["csv","txt"]
 )
 
 if arquivo is not None:
